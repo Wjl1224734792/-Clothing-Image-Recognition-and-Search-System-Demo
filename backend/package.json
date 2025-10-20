@@ -1,0 +1,26 @@
+{
+  "name": "image-search-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "以图搜图Demo后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.5",
+    "@zilliz/milvus2-sdk-node": "^2.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "multer": "^1.4.0"
+  },
+  "keywords": [
+    "image-search",
+    "milvus",
+    "transformers",
+    "vue3"
+  ],
+  "author": "Demo Project",
+  "license": "MIT"
+}
